@@ -44,7 +44,3 @@ when you approve: google send code to twitter , twitter use it with his id and s
 
 ---
 
-
-=======
-# OAuth
->>>>>>> 3087d4909c7c3f45354cf8e6ca33a9bf9036c969
