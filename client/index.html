@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login with Google</title>
+</head>
+
+<body>
+  <h1>Login with Google</h1>
+  <button id="google-login">Sign in with Google</button>
+
+</body>
+
+
+<script>
+  document.getElementById("google-login")?.addEventListener("click", async () => {
+    const res = await fetch("http://localhost:3000/api/v1/auth/getGoogleUrl", {
+      method: "GET",
+      credentials: "include", // include cookies
+    });
+    const data = await res.json();
+    window.location.href = data.url;
+  });
+
+</script>
+
+</html>
