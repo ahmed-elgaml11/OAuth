@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🔐 Google OAuth 2.0 Authentication with Node.js and Express
 
 This project demonstrates how to implement **Google OAuth 2.0** authentication using **Node.js**, **Express**, **MongoDB**, and **express-session**. It allows users to sign in with their Google accounts and securely maintain a session.
